@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Excluding Azure Traffic Manager health checks (or any URL) from Application Insights telemetry"
-subtitle:   "We'll see how this goes"
+subtitle:   "Implementing a custom ITelemetryProcessor to filter out certain URLs"
 date:       2017-03-22 12:00:00
 author:     "Chris"
 header-img: "img/post-bg-01.jpg"
