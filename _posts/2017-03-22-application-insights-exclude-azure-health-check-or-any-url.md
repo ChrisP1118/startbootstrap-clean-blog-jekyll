@@ -15,7 +15,7 @@ To do this, I have a unique endpoint that's used only by Traffic Manager, which 
 
 The code:
 ```C#
-namespace Xaipete.ApplicationInsights {
+namespace MagneTag.ApplicationInsights {
 
 	public class ExcludeBotsTelemetryProcessor : ITelemetryProcessor
 	{
@@ -46,7 +46,7 @@ namespace Xaipete.ApplicationInsights {
 
 And then I added this to the ```TelemetryProcessors``` section of ```ApplicationInsights.config```:
 ```xml
-<Add Type="Xaipete.ApplicationInsights.ExcludeBotsTelemetryProcessor, Xaipete.ApplicationInsights">
-  <ExcludedUrls>/Home/HealthCheck</ExcludedUrls>
+<Add Type="MagneTag.ApplicationInsights.ExcludeBotsTelemetryProcessor, MagneTag.ApplicationInsights">
+  <ExcludedUrls>/Home/Status</ExcludedUrls>
 </Add>
 ```
