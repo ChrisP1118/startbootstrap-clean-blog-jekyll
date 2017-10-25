@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Prevent Pwned Passwords"
-subtitle:   "Avoiding using breached passwords"
+subtitle:   "The easy way to avoid bad passwords"
 date:       2017-10-24 12:00:00
 author:     "Chris"
 header-img: "img/home-bg.jpg"
