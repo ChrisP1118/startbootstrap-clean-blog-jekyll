@@ -4,7 +4,7 @@ title:      "Prevent Pwned Passwords"
 subtitle:   "Avoiding using breached passwords"
 date:       2017-10-24 12:00:00
 author:     "Chris"
-header-img: "img/post-bg-01.jpg"
+header-img: "img/home-bg.jpg"
 ---
 
 As more and more data breaches occur, it becomes more and more difficult to keep passwords secure. One of the emerging recommendations
